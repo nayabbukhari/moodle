@@ -1,5 +1,12 @@
-template-file-path: ./distributed-load-testing-on-aws - org.template
-
-tags:
-  Name: 'Cloudformationgitsync'
-  Project: 'Moodle43'
+template-file-path: distributed-load-testing-on-aws - org.template
+parameters:
+  ExistingSubnetB: subnet-015271de71f9b5ccc
+  SubnetACidrBlock: 192.168.0.0/20
+  ExistingSubnetA: subnet-03824974339c03290
+  VpcCidrBlock: 192.168.0.0/16
+  AdminName: Syed
+  ExistingVPCId: vpc-06975ab7c6549af82
+  EgressCidr: 0.0.0.0/0
+  SubnetBCidrBlock: 192.168.16.0/20
+  AdminEmail: nayab@nayab.au
+tags: {}

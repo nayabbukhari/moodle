@@ -1,0 +1,5 @@
+template-file-path: ./distributed-load-testing-on-aws - org.template
+
+tags:
+  Name: 'Cloudformationgitsync'
+  Project: 'Moodle43'
